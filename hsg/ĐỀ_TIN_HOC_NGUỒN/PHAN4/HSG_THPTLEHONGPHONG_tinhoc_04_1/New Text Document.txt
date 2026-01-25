@@ -1,0 +1,17 @@
+Nguyễn Thế Dũng – THPT Lê Hồng Phong
+ĐÁP ÁN
+var  a,b,c:integer;
+    S,x,q,n:longint;
+    h,m,p,k,i:longint;
+function tong(m:longint):longint;
+var hm:longint;
+begin
+S:=0;
+while m<>0 do
+begin
+S:=S+ m mod 10;
+m:=m div 10;
+end;
+tong:=S;
+end;
+

@@ -1,0 +1,48 @@
+
+uses crt;
+var f1,f2:text;
+    a:array[1..100] of byte;
+    b:array[1..200] of boolean;
+    s:array[1..200] of char;
+    n:integer;
+procedure nhap;
+var i:integer;
+begin
+     assign(f1,'bracket.inp');reset(f1);
+     readln(f1,n);
+     for i:=1 to n do
+           read(f1,a[i]);
+     close(f1);
+     for i:=1 to n do write(a[i],' ');
+end;
+procedure nhapsau(x,y:integer);
+begin
+     s[x]:='(';
+     s[x+y+1]:=')';
+     b[x]:=false;
+     b[x+y+1]:=false;
+end;
+procedure xuly;
+var i,j:integer;
+begin
+     fillchar(b,sizeof(b),true);
+     for i:=1 to n do
+         for j:=i to n*2-1 do
+             if b[j]=true then begin
+                                    nhapsau(j,a[i]);
+                                    break;
+                               end;
+     for i:=1 to n*2 do write(s[i]);
+end;
+procedure xuat;
+var i:integer;
+begin
+     assign(f2,'bracket.out');rewrite(f2);
+     for i:=1 to n*2 do write(f2,s[i]);
+     close(f2);
+end;
+begin
+     nhap;
+     xuly;
+     xuat;
+end.

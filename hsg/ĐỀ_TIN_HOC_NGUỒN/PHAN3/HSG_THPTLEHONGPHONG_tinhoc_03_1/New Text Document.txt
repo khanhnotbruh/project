@@ -1,0 +1,56 @@
+Nguyễn Thế Dũng – THPT Lê Hồng Phong
+ĐÁP ÁN
+Function KtraDoiXung (A:Mang20; N:Integer ) : Boolean;
+Var Flag:Boolean;
+      i :Integer;
+Begin
+        Flag:=True;
+        For  i :=1 to N do
+              If(A[i] <> A[N-i  +1]) Then
+                     Flag :=False;       { Cham dut kiem tra, ket qua qua trinh : khong doi xung }
+        KtraDoiXung :=Flag;
+End;
+{ 2. Ham kiem tra mang tang   }
+Function KtraMangTang ( A:Mang20; N :Integer) : Boolean;
+Var Flag : Boolean;
+      i :Integer;
+Begin
+       Flag := True;
+       For i :=1 to N do
+              If(A[i] < A[i-1]) Then
+                     Flag :=False;         { Cham dut kiem tra, ket qua qua trinh : khong tang }
+       KtraMangTang :=Flag;
+End;
+{ 3. Thu tuc sap xep mang tang   }
+Function  SxepMangTang (A:Mang20; N:Integer ):Integer;
+Var i ,j,k :Integer;
+Begin
+       For i :=1 to N do
+              For  j :=1 to N do
+                     If ( (i<j) and (A[i] > A[j]) ) then
+                     Begin
+                            k := A[i];                 { Tien hanh hoan doi gia tri A[i], A[j] }
+                            A[i] := A[j];             { cho nhau thong qua bien tam k }
+                            A[j] := k;
+                     End;
+End;
+Source code chương trình chính:
+BEGIN
+       Clrscr;
+       NhapMang1C(A, N);                   { Ham nhap xuat khong nhac lai nua }
+       XuatMang1C(A, N);                    { Su dung ket qua o truoc }
+       If ( KtraDoiXung (A, N ) ) then
+              Writeln( ' Mang A doi xung.')
+       Else
+              Writeln(' Mang A khong doi xung.');
+       If ( KtraMangTang (A, N ) ) then
+              Writeln( 'Mang A la mang tang ')
+       Else
+       Begin
+              Writeln( 'Mang A khong phai la mang tang. ');
+              SxepMangTang( A, N );
+              Writeln( 'Ket qua sap sep:');
+              XuatMang1C(A, N);
+       End;
+       Readln;
+END .

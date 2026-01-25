@@ -1,0 +1,25 @@
+var f1,f2:text;
+a:array[0..2]of longint;
+n,m,i,j,dem,code,k:longint;
+t:byte;
+begin
+assign(f1,'bai3.inp');reset(f1);
+assign(f2,'bai3.out');rewrite(f2);
+readln(f1,n,m);
+for i:=1 to n do
+begin
+read(f1,k);
+a[k mod 3]:=a[k mod 3]+1;
+end;
+readln(f1);
+for i:=1 to m do
+begin
+        read(f1,k);
+        dem:=0;
+        k:=k mod 3;
+        for j:=0 to 2 do
+                     if (k+j) mod 3 = 0 then writeln(f2,a[j]);
+end;
+close(f1);
+close(f2);
+end.

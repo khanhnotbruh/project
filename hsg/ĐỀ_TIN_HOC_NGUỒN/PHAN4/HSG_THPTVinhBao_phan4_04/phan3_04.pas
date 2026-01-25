@@ -1,0 +1,34 @@
+USES CRT;
+VAR D:ARRAY[0..1000] OF LONGINT;
+    A:ARRAY[1..100] OF INTEGER;
+    N,M:LONGINT;
+    F1,F2:TEXT;
+  PROCEDURE DOCF;
+   VAR K:INTEGER;
+     BEGIN
+      ASSIGN(F1,'MONEY.INP');
+      RESET(F1);
+      READLN(F1,N,M);
+       FOR K:=1 TO N DO READ(F1,A[K]);
+       CLOSE(F1);
+      END;
+  PROCEDURE XULY;
+    VAR I,J:INTEGER;
+     BEGIN
+      FILLCHAR(D,SIZEOF(D),0); D[0]:=1;
+      FOR I:=1 TO N DO
+       FOR J:=M-A[I] DOWNTO 0 DO INC(D[J+A[I]],D[J]);
+     END;
+   PROCEDURE GHIF;
+    BEGIN
+     ASSIGN(F2,'MONEY.OUT');
+     REWRITE(F2);
+     WRITE(F2,D[M]);
+     CLOSE(F2);
+   END;
+    BEGIN
+    DOCF;
+    XULY;
+    GHIF;
+    END.
+

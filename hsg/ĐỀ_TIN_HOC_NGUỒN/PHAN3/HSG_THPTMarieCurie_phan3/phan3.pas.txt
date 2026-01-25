@@ -1,0 +1,85 @@
+PROGRAM   BAI3;
+USES CRT;
+VAR	A: array[1..10,1..10] of integer;
+          B :array[1..100]of integer;
+          tg, k, n,i,j,x,dem,S,max:Integer;
+BEGIN
+	
+      	Write('Nhap n='); Readln(n);
+	For i:=1 To n do                
+   begin
+		For j:=1 To n Do read (a[i,j]);
+                Readln;
+              end;
+	{Câu a: Tìm ki?m ph?n t? x trong mang A}
+ 	Write('Nhap x='); Readln(x);	
+	dem:=0;
+	Writeln('Vi tri cua x trong mang A: ');
+	For i:=1 To n Do
+		For j:=1 To n Do	
+			If a[i,j]=x Then
+				Begin
+					Writeln(i,j);
+					dem:=dem+1;
+				End;
+	Writeln('So lan xuat hien cua x trong mang A la: ',dem);	
+	{Câu b: Tính t?ng các ph?n t? l?n nh?t c?a m?i dòng}
+	S:=0;
+	For i:=1 To n Do
+		Begin			
+			Max:=A[i,1];
+			For j:=2 To n Do	
+				If max<A[i,j] Then max:=A[i,j];
+			
+			S:=S+max;
+		End;
+	Writeln('Tong cac phan tu lon nhat cua moi dong la: ',S);
+	{Câu c: S?p x?p m?ng}
+	{chuy?n m?ng 2 chi?u A thành m?ng 1 chi?u B}
+        k:=0;
+        For i:=1 to n do
+        For j:=1 to n do
+        If k<n*n then   
+begin
+                        k:=k+1;
+                        b[k]:=a[i,j];
+                     end;
+	{S?p x?p m?ng 1 chi?u B theo th? t? tang d?n}
+        For i:=1 to n*n-1 do
+        For j:=i+1 to n*n do
+     	   if b[i]>b[j] then
+                        begin
+                       	 tg:=b[i];
+                      	 b[i]:=b[j];
+                       	 b[j]:=tg;
+                        end;
+	{Chuy?n m?ng 1 chi?u A thành m?ng 2 chi?u B}
+        k:=0;
+        For j:=1 to n do
+        begin
+        	If j mod 2 =1 then
+                Begin
+                	for i:=1 to n do
+                        Begin
+                       	 k:=k+1;
+                       	 a[i,j]:=b[k];
+                        End;
+                End
+        Else
+                Begin
+                 for i:=n downto 1 do
+                        Begin
+                        	k:=k+1;
+                       	a[i,j]:=b[k];
+                        End;
+                End;
+        End;
+	{in m?ng 2 chi?u sau khi s?p x?p}
+        Writeln('mang sau khi sap xeo la:');
+        For i:=1 to n do
+        		Begin
+        			For j:=1 to n do write(a[i,j]);
+        			Writeln;
+        		End;
+	Readln;
+END.

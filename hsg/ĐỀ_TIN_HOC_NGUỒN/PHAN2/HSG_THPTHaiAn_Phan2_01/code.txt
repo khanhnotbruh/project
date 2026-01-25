@@ -1,0 +1,33 @@
+DAPAN
+Var N,K: Longint;
+f1, f2: text;
+Procedure NhapDuLieu;
+begin
+assign(f1, ‘TAU.INP’); reset(f1);
+readln(f1, N,K);
+close(f1);
+end;
+function UCLN(a, b: Longint): Longint;
+var r : longint;
+begin
+while (b<>0) do
+begin
+r := a mod b;
+a := b;
+b := r;
+end;
+UCLN := a;
+end;
+procedure XuLy;
+begin
+assign(f2, ‘TAU.OUT’);
+rewrite(f2);
+writeln(f2, N*K/UCLN(S, K):0:0);
+close(f2);
+end;
+BEGIN
+NhapDuLieu;
+XuLy;
+END.
+
+

@@ -1,0 +1,15 @@
+const   fi='string.inp';
+        fo='string.out';
+var     s1,s2:ansistring;
+        d,i:longint;
+begin
+        assign(input,fi); reset(input);
+        assign(output,fo); rewrite(output);
+        readln(s1);
+        readln(s2);
+        d:=0;
+        for i:=1 to length(s1) do
+           if s1[i]<>s2[i] then inc(d);
+        writeln(d);
+        close(input); close(output);
+end.

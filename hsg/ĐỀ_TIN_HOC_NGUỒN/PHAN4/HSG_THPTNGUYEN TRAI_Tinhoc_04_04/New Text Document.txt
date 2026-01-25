@@ -1,0 +1,75 @@
+Const
+        fi      =       'PRIME.INP';
+        fo      =       'PRIME.OUT';
+        MAXN    =       1000000;
+Var
+        f1,f2   :       Text;
+        n, m    :       LongInt;
+        A,C     :       Array[0..MAXN+5] of LongInt;
+        NTO     :       Array[1..MAXN+5] of Boolean;
+        B       :       Array[1..MAXN+5] of Byte;
+        u,v     :       LongInt;
+(*---------------------------*)
+Procedure Input;
+Var
+        i       :       LongInt;
+Begin
+        Readln(f1,n,m);
+        For i:=1 to n do Read(f1,A[i]);
+End;
+(*--------------------------*)
+Procedure Sang;
+Var
+        i,j :       LongInt;
+Begin
+        FillChar(NTO,SizeOf(NTO),True);
+        NTO[1]:=False;
+        i:=2;
+        While i <= MAXN do
+        Begin
+                While (not NTO[i]) and (i <= MAXN) do Inc(i);
+                j:=2;
+                While i*j <= MAXN do
+                Begin
+                        NTO[i*j]:=False;
+                        Inc(j);
+                End;
+                Inc(i);
+        End;
+End;
+(*--------------------------*)
+Procedure Xuly;
+Var
+        i       :       LongInt;
+Begin
+        FillChar(B,SizeOf(B),0);
+        For i:=1 to n do
+                If NTO[A[i]] then B[i]:=1;
+        FillChar(C,SizeOf(C),0);
+        For i:=1 to n do
+                C[i]:=C[i-1]+B[i];
+End;
+(*--------------------------*)
+Procedure Output;
+Var
+        i       :       LongInt;
+Begin
+        For i:=1 to m do
+        Begin
+                Readln(f1,u,v);
+                Writeln(f2,C[v]-C[u-1]);
+        End;
+End;
+(*--------------------------*)
+BEGIN
+        Assign(f1,fi);
+        Reset(f1);
+        Assign(f2,fo);
+        Rewrite(f2);
+        Input;
+        Sang;
+        Xuly;
+        Output;
+        Close(f1);
+        Close(f2);
+END.

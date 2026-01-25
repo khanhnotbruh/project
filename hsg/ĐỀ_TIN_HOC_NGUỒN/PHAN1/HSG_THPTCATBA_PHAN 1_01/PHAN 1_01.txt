@@ -1,0 +1,21 @@
+program bai1;
+var  i,n,m,dem,r:integer;
+     a,b:array[1..100] of integer;
+     f:text;
+   BEGIN
+        assign(f,'duongtron.inp');
+        reset(f);
+        readln(f,n,r);
+        for i:=1 to n do
+                        readln(f,a[i],b[i]);
+        close(f);
+        dem:=0;
+        for i:=1 to n do
+                        if sqrt(a[i]*a[i]+b[i]*b[i])=r then
+                        inc(dem);
+        assign(f ,'duongtron.out');
+        rewrite(f);
+        write(f,dem);
+        close(f);
+   END.
+ 

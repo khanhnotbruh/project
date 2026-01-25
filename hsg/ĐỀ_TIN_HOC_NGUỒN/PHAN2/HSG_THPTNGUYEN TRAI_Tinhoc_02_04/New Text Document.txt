@@ -1,0 +1,46 @@
+CONST
+  tfi   = 'BAI2.INP';
+  tfo   = 'BAI2.OUT';
+  MaxX  = 10000000;
+VAR
+  p,q,x,res,i,j,ok,y  :   longint;
+  ngto                :   array[1..MaxX] of boolean;
+
+Procedure sangngto;
+ var
+    i,j : longint;
+ begin
+    ngto[1] := true;
+    for i := 1 to trunc(sqrt(MaxX)) do
+      if not ngto[i] then
+        begin
+            j := i*i;
+            while j <= MaxX do
+              begin
+                  ngto[j] := true;
+                  j := j + i;
+              end;
+        end;
+ end;
+
+
+BEGIN
+  assign(input, tfi); reset(input);
+  assign(output, tfo); rewrite(output);
+  sangngto;
+  read(p,q);
+  res := 0;
+  for i := p to q do
+    begin
+       x := i;
+       y := 0;
+       while x <> 0 do
+        begin
+           y := y*10 + x mod 10;
+           x := x div 10;
+        end;
+       if not ngto[y] then inc(res);
+    end;
+  write(res);
+  close(input);close(output);
+END.

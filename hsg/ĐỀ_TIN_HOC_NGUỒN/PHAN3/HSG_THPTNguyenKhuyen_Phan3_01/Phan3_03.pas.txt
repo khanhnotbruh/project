@@ -1,0 +1,36 @@
+program BAI1;
+const   fi='BAI1.inp';
+           fo='BAI1.out';
+          nmax=10003;
+var a:array[1..nmax]of int64;
+    n,k,b:longint;
+    kq:int64;
+    f,g:text;
+
+procedure  nhapdulieu;
+var i:integer;
+begin
+    assign(f,fi);
+    reset(f);
+    readln(f,n,k,b);
+    for i:=1 to n do readln(f,a[i]);
+    close(f);
+end;
+
+procedure  xuly;
+var i,j:longint;
+begin
+    kq:=0;
+    for i:=b to b+k-1 do
+    kq:=kq+a[(i-1) mod N +1];
+    assign(g,fo);
+    rewrite(g);
+       write(g,kq);
+    close(g);
+end;
+
+Begin
+   nhapdulieu;
+   xuly;
+End.
+

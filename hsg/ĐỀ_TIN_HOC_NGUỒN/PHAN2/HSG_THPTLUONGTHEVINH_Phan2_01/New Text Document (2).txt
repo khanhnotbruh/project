@@ -1,0 +1,8 @@
+ Vũ Thu Thủy – THPT Lương Thế Vinh
+
+
+
+BAI2.INP 		BAI2.OUT 
+11	6	
+30	6  28	
+

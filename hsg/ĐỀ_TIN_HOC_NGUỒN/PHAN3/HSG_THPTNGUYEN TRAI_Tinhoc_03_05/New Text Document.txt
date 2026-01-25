@@ -1,0 +1,45 @@
+const
+	FINP='BAI1.INP';
+	FOUT='BAI1.OUT';
+var
+        a,b,tong:string;
+        t:string;
+        i,m,n,x,nho:byte;
+        fi,fo:text;
+procedure init;
+begin
+        assign(fi,FINP);
+        assign(fo,FOUT);
+        reset(fi);
+        rewrite(fo);
+        readln(fi,A);
+        readln(fi,B);
+end;
+procedure process;
+begin
+        while length(a)<length(b) do a:='0'+a;
+        while length(b)<length(a) do b:='0'+b;
+        nho:=0;
+        tong:='';
+        for i:=length(b) downto 1 do
+                begin
+                val(a[i],m,x);
+                val(b[i],n,x);
+                str(((m+n) mod 10)+nho,t);
+                nho:=(m+n) div 10;
+                tong:=t+tong;
+                end;
+        if nho=1 then tong:='1'+tong;
+        write(fo,tong);
+end;
+procedure closing;
+begin
+        close(fi);
+        close(fo);
+end;
+begin
+        init;
+        process;
+        closing;
+end.
+

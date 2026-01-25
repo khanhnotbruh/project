@@ -1,0 +1,34 @@
+Var
+N:longint;
+F, A:array[1..100000] of longint;
+fi, fo:text;
+Procedure DocDuLieu;
+Var i: Longint;
+Begin
+  Assign(fi, 'DayDep.inp'); reset(fi);
+  Assign(fo, 'DayDep.out'); rewrite(fo);
+  Readln(fi, N);
+  For i:=1 to N do begin
+    Read(fi,A[i]); inc(F[A[i]]); end;
+Close(fi);
+End;
+Procedure XuLy;
+Var I,M:Longint;
+Begin
+  M:=N;
+  For i:=1 to N do
+    If (F[A[i]] <> A[i]) And (F[A[i]]>0) then
+      Begin
+        if f[a[i]] > a[i] then
+          M:=M-(f[a[i]] - a[i])
+        else
+          M:=M-F[A[i]];
+        F[A[i]]:=0;
+      end;
+  Write(fo, N-M);
+  Close(fo);
+End;
+BEGIN
+ 	DocDuLieu;
+	XuLy;
+END.

@@ -1,0 +1,40 @@
+Vũ Thu Thủy – THPT Lương Thế Vinh
+
+program So_hoan_thien;
+  uses crt;
+  const n_max=200;
+        f1: string ='BAI2.inp';
+        f2: string ='BAI2.out';
+  var t: text;
+      n,i,j,s : integer;
+      a: array[1..n_max] of integer;
+  PROCEDURE doc_file;
+    begin
+     assign(t,f1);
+     reset(t);
+     readln(t,n);
+     for i:=1 to n do
+         begin
+          readln(t,A[i]);
+          writeln(A[i], #32);
+         end;
+     close(t);
+     assign(t,f2);
+     rewrite(t);
+    end;
+  PROCEDURE kt(A: integer);
+    begin
+     S:=0;
+     for j:=1 to (A div 2) do
+         if A mod j =0 then S:=S+j;
+       if S=A then writeln(t,S);
+    end;
+begin
+  clrscr;
+  doc_file;
+  for i:=1 to n do kt(A[i]);
+  close(t);
+  readln;
+end.
+ 
+

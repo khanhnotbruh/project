@@ -1,0 +1,33 @@
+Program bai2;
+Var     s:string;
+        C:char;
+        i, j, dau, cuoi : integer;
+        f1, f2:text;
+
+BEGIN
+        assign(f1,'bai2.inp');
+        reset(f1);
+        assign(f2,'bai2.out');
+        rewrite(f2);
+        readln(f1,C);
+        readln(f1,s);
+        i:=1; dau:=0;cuoi:=0;
+        {repeat}
+        while i<=length(s)do
+        begin
+        while (s[i] <> C) and (i <=length(s)) do inc(i);
+        j:=i;
+        while (s[i] = C)  do inc(i);
+        if i-j > cuoi - dau then
+           begin
+           dau:=j;
+           cuoi:=i;
+           end;
+        end;
+{        until i>length(s);}
+        if cuoi-dau > 0 then
+                for i:= dau to cuoi -1 do write (f2,s[i])
+        else writeln (f2,'khong co xau nhu vay');
+        close(f1);
+        close(f2);
+END.

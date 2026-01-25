@@ -1,0 +1,10 @@
+Vũ Thu Thủy – THPT Lương Thế Vinh
+
+BAI4.INP	BAI4.OUT
+10 380
+200 10 20 20 50 50 50 50 100 100	CO
+200 100 50 20 10
+
+
+
+

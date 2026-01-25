@@ -1,0 +1,34 @@
+Nguyễn Thế Dũng – THPT Lê Hồng Phong
+ĐÁP ÁN
+Procedure ChenPhanTu( A:Mang20;Var N : Integer; k, X:Integer);
+Var i :Integer;
+Begin
+For i:=N downto k+ 1 do
+            A[i] := A[i-1];
+      A[k] := X;
+      N:=N+1;
+End;
+{ 2. Thu tuc xoa phantu }
+Procedure XoaPhanTu( A:Mang20; Var N ,k:Integer);
+Var i :Integer;
+Begin
+       For  i:=k to N-1 do
+              A[i] := A[i+1];
+       N:=N-1;
+End;
+ 
+Source code chương trình chính:
+BEGIN
+       NhapMang1C(A, N);                   { Ham nhap xuat khong lam lai nua }
+       XuatMang1C(A, N);                    { Su du let qua o truoc }
+       Write('Gia tri x:'); Readln(x);
+       Write('Vi tri k,h:');            Readln(k,h);
+       Writeln('Ket qua chen vao la:');
+       ChenPhanTu(A, N, k, x);
+       XuatMang1C(A, N);
+       Writeln('Ket qua xoa phan tu o vi tri la:', h);
+       XoaPhanTu(A, N, h);
+       XuatMang1C(A, N);
+       Readln;
+END
+

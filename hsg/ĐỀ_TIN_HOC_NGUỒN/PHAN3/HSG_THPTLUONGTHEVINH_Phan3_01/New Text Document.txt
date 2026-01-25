@@ -1,0 +1,33 @@
+Vũ Thu Thủy – THPT Lương Thế Vinh
+
+Program Dem_tu_doi_xung;
+Var     i,d,dem,j       :       integer;
+        S,a       :       string;
+Function  DX( S        :       String) :       Boolean;
+Var
+        n,i     :       longint; kt:boolean;
+Begin
+        n := length(S);  KT:=true;
+        For i:=1 to n div 2 do
+                IF S[i] <> S[N-i+1] then KT:=False;
+        DX:= kt;
+End;
+BEGIN
+Assign(input,'BAI3.inp');Reset(input);
+Assign(output,'BAI3.out');Rewrite(output);
+Read(Input,S);
+S:=S+' ';
+j:=1;
+       For i:=1 to length(S) do
+                IF S[i]=' ' then
+                        Begin
+                                a:=copy(S,j,i-j);
+                                j:=i+1;
+                                IF DX(a) then inc(dem);
+                        End;
+       Write(dem);
+END.
+
+
+
+

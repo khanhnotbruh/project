@@ -1,0 +1,30 @@
+Nguyễn Thế Dũng – THPT Lê Hồng Phong
+ĐÁP ÁN
+var a: array[0..21] of string; s:ansistring;
+i,n:longint; f,g:text;
+{===================}
+procedure	tachtu;
+var x,tu:ansistring; dem:longint; begin
+n:=length(s); x:=s; dem:=0;
+while (pos(' ',x)<>0) and (length(x)>=0) do begin
+i:=pos(' ',x);
+tu:=copy(x,1,i); inc(dem);
+a[dem]:=tu;
+delete(x,1,i); end;
+inc(dem);
+a[dem]:=x; n:=dem; end;
+{===================}
+procedure qsort(L,H: word); var tg,k:ansistring; i,j:longint; begin
+if l>=h then exit; i:=l; j:=h; tg:=a[(l+h) div 2]; repeat
+while length(a[i])<length(tg) do inc(i); while length(a[j])>length(tg) do dec(j); if i<=j then
+begin
+if i<j then begin
+k:=a[i]; a[i]:=a[j];a[j]:=k; end;
+inc(i);dec(j); end;
+until i>j; Qsort(l,j);Qsort(i,h); end;
+{=================}
+begin
+assign(f,'sapxau.inp'); reset(f); assign(g,'sapxau.out'); rewrite(g); readln(f,s);
+tachtu; qsort(1,n);
+for i:=1 to n do write(g,a[i],' '); close(f); close(g);
+end.

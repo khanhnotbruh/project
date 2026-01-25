@@ -1,0 +1,64 @@
+const
+	tfi	=	'bai1.inp';
+	tfo	=	'bai1.out';
+var
+	a,b:	array[1..500] of char;
+	n,i,j :	longint;
+	fi,fo	:	text;
+(*-------------------------*)
+Procedure nhap;
+  var
+    ch  : char;
+  begin
+    n := 0;
+	assign(fi,tfi); reset(fi);
+      while not seekeof(fi) do
+        begin
+          inc(n);
+          read(fi,ch);
+          a[n] := ch;
+        end;
+    b := a;
+    close(fi);
+  end;
+(*-------------------------*)
+Procedure doicho(var x,y  : char);
+  var
+    tg  : char;
+  begin
+    tg := x;
+    x := y;
+    y := tg;
+  end;
+(*-------------------------*)
+Procedure caua;
+  var
+    i : longint;
+  begin
+    for i := 1 to n-1 do
+      for j := i+1 to n do
+        if (a[i] in ['0'..'9']) and  (a[j] in ['0'..'9'])  and (a[i] < a[j]) then
+          doicho(a[i],a[j]);
+    for i := 1 to n do write(fo,a[i]);
+  end;
+(*-------------------------*)
+Procedure caub;
+  var
+    i : longint;
+  begin
+    for i := 1 to n-1 do
+      for j := i+1 to n do
+        if (upcase(b[i]) in ['A'..'Z']) and  (upcase(b[j]) in ['A'..'Z'])  and (upcase(b[i]) > upcase(b[j])) then
+              doicho(b[i],b[j]);
+    for i := 1 to n do write(fo,b[i]);
+  end;
+(*-------------------------*)
+BEGIN
+  nhap;
+	assign(fo,tfo); rewrite(fo);
+  caua;
+  writeln(fo);
+  caub;
+	close(fo);
+END.
+

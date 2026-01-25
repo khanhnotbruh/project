@@ -1,0 +1,48 @@
+Vũ Thu Thủy – THPT Lương Thế Vinh
+
+Program Tra_tien;
+Var i,k,n,dem       :       longint;
+        A,B       :       array[1..1000000] of longint;
+procedure qsort;
+procedure sort(l,r: longint);
+      var
+         i,j,x,y: longint;
+      begin
+         i:=l;
+         j:=r;
+         x:=a[(l+r) div 2];
+         repeat
+           while a[i]>x do
+            inc(i);
+           while x>a[j] do
+            dec(j);
+           if not(i>j) then
+             begin
+                y:=a[i];
+                a[i]:=a[j];
+                a[j]:=y;
+                inc(i);
+                j:=j-1;
+             end;
+         until i>j;
+         if l<j then
+           sort(l,j);
+         if i<r then
+           sort(i,r);
+      end;
+
+    Begin
+       sort(1,n);
+    End;
+BEGIN
+Assign(input,'BAI4.INP');Reset(input);
+Assign(output,'BAI4.OUT');Rewrite(output);
+Readln(n,k);
+For i:=1 to n do Read(A[i]);
+Qsort;dem:=0;
+        For i:=1 to n do
+                IF A[i] <= k then Begin inc(dem);B[dem]:=A[i];K:=k-A[i]; End;
+        If k = 0 then Begin Writeln('CO'); For i:=1 to dem do Write(B[i],' ');End
+        Else Write('KHONG');
+END.
+

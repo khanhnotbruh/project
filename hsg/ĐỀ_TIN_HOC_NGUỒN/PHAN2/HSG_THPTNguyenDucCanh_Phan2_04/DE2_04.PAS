@@ -1,0 +1,53 @@
+program SONG_TO;
+var f1,f2:text;
+    n,i,d:word;
+    a:array [1..10000] of integer;
+    snt:array[1..10000] of boolean;
+procedure sangngto;
+var i,j:word;
+ begin
+      snt[1]:=true;
+      for i:=1 to trunc(sqrt(10000))do
+      if not snt[i] then
+      begin
+      j:=i*i;
+      while j<=10000 do
+      begin
+      snt[j]:=true;
+      j:=j+i;
+      end;
+     end;
+ end;
+function tong(x:word):byte;
+var s:byte;
+begin
+ s:=0;
+  while x<>0 do
+     begin
+      s:=s+ x mod 10;
+      x:=x div 10;
+     end;
+tong:=s;
+end;
+BEGIN
+     assign(f1,'DE2_04.inp');
+     reset(f1);
+     readln(f1,n);
+     assign(f2,'DE2_04.out');
+     rewrite(f2);
+     sangngto;
+     for i:=1 to n do
+     begin
+     read(f1,a[i]);
+     if not (snt[a[i]]) and not (snt[tong(a[i])]) then d:=d+1;
+     end;
+     write(f2,d);
+     close(f1);
+     close(f2);
+END.
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+const
+        FINP='BAI1.INP';
+        FOUT='BAI1.OUT';
+var
+        fi,fo:text;
+        S,St:string;
+procedure init;
+        begin
+                assign(fi,FINP);
+                assign(fo,FOUT);
+                reset(fi);
+                rewrite(fo);
+                readln(fi,S);
+                read(fi,St);
+                S:=S+S;
+                if pos(st,S) > 0 then write(fo,'TRUE') else write(fo,'FALSE');
+                close(fi);
+                close(fo);
+        end;
+begin
+init;
+end.

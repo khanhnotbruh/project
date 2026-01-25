@@ -1,0 +1,9 @@
+Vũ Thu Thủy – THPT Lương Thế Vinh
+
+BAI3.INP	BAI3.OUT
+Hai Phong nen tin hoc tot 121 mam	4 (Các từ: nen,tot,121, mam)
+Hai phong ha noi viet nam	0
+
+
+
+

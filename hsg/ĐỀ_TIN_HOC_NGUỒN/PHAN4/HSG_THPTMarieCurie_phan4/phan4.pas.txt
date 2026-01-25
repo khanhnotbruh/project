@@ -1,0 +1,16 @@
+PROGRAM BAI4;
+Var S: string; 
+       i, j, dem: integer; 
+       t: boolean; 
+  BEGIN
+     Write('Cho mot xau ki tu S: '); Readln(S); 
+     dem:=0; 
+     For i:=1 to length(S) do
+        Begin 
+           t:=false; 
+           For j:=1 to i-1 do if (S[j]=S[i]) then t:=true; 
+           If not t then dem:= dem+1; 
+        End; 
+     Write('So ki tu khac nhau cua xau S la: ', Dem); 
+     Readln; 
+  END .

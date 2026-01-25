@@ -1,0 +1,32 @@
+Program Xoa_ki_tu_trung;
+ uses crt;
+ const f1: string ='BAI1.INP';
+       f2: string ='BAI1.OUT';
+ var S,st: string;
+ PROCEDURE doc_file;
+   var t: text;
+   begin
+     assign(t,f1);
+     reset(t);
+     readln(t,S);
+     close(t)
+   end;
+ PROCEDURE xu_ly(S: string);
+   var st: string;
+       t: text;
+       i: integer;
+   begin
+     assign(t,f2);
+     rewrite(t);
+     st:='';
+     for i:=1 to length(s) do
+         if S[i]<>S[i+1] then st:=St+S[i];
+     writeln(t,st);
+     close(t);
+   end;
+BEGIN 
+ clrscr;
+ doc_file;
+ xu_ly(S);
+ readln;
+END.

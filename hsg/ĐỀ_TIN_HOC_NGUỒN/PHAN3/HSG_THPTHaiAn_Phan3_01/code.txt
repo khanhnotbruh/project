@@ -1,0 +1,47 @@
+
+DAPAN
+Const fii = ‘thuong.inp’; foo = ‘thuong.out’
+Var fi, fo: text;
+Tong,I,N,Max:longint;
+A, B, F: array[1..1000000] of byte;
+Procedure DocFile;
+Begin 
+Assign(fi, fii); reset(fi);
+Assign(fo, foo); rewrite(fo);
+Readln(fi, N);
+For i:=1 to n do read(fi, A[i]);
+For i:=1 to n do 
+Begin
+Read(fi,B[i]);
+If A[i]=0 then
+Begin
+ If max<B[i] then max := B[i];
+Inc(F[B[i]]);
+End
+End;
+Close(fi);
+End;
+BEGIN
+Fillchar(F, sizeof(f),0);
+Max := 0;
+Tong:=0;
+DocFile;
+For i:= Max downto 1 Do
+Begin
+If F[i] <> 0 then
+Begin
+Tong:=tong+F[i];
+If tong>=3 then 
+begin 
+write(fo, tong); 
+break; 
+end;
+			
+End;
+ 
+End;
+If tong<3 then write(fo, ‘0’);
+Close(fo);
+END.
+
+

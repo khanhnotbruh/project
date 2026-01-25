@@ -1,0 +1,22 @@
+Nguyễn Lệ Hằng – THPT Lê Hồng Phong
+Program timan;
+Const fi=’timan.inp’; fo=’timan.out’;
+Var I,n,a,b,c,d: qword; F:text;
+Begin
+Assign(f,fi);reset(f); readln(f,n);
+Close(f); 
+If n<=3 then
+   A:=1
+Else
+   Begin
+     I:=4; b:=1; c:=1; d:=1;
+While i<=n do
+    Begin
+      A:=b+d;
+D:=c; c:=b; b:=a;
+Inc(i);
+End;
+Assign(f,fo); rewrite(f);
+Write(f,a);
+Close(f);
+End.

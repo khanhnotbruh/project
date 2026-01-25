@@ -1,0 +1,58 @@
+Nguyễn Thế Dũng – THPT Lê Hồng Phong
+ĐÁP ÁN
+Function TimKiem ( A:Mang20; N:Integer; X:Integer ):Boolean;
+Var Flag : Boolean;
+       i:Integer;
+Begin
+      Flag:=False;
+      For  i:=0  to N do
+            Begin
+                        If (A[i] = x) then
+                          Begin
+                                    Flag:=True;
+                                    Break;              {Tim thay  ==> Tra ve vi tri tim thay }
+                          End;
+            End;
+       TimKiem:=Flag;
+End;
+{ 2. Thay the phan tu X dau tien tim thay trong mang bang gia tri Y    }
+Function ThayThe(Var A:Mang20;Var N, x, y:Integer):Integer;
+Var i:Integer;
+Begin
+       For i:=0 to N do
+              If (A[i] = x) then
+              Begin
+      A[i] := y;               { Tim thay x ==> thay the thanh y }
+                  Break;                   { Cham dut qua trinh thay the}
+              End;
+       ThayThe := i;
+End;
+ 
+{ 3. Thay the tat ca cac phan tu co gia tri X tim thay bang gia tri Y    }
+Procedure ThayTheTatCa (Var A:Mang20; Var N, x,y:Integer);
+Var i:Integer;
+Begin
+       For i:=0 to N do
+              If(A[i] = x) then                    { Tim thay x ==> thay the thanh y }
+                     A[i] := y;
+End;
+ 
+Source code chương trình chính
+BEGIN
+       NhapMang1C(A, N);                   { Ham nhap xuat khong lam lai nua }
+       XuatMang1C(A, N);                    { Su du let qua o truoc  }
+       Write('Gia tri x:'); Readln(x);
+       If (TimKiem(A,N,x)) then
+              Writeln( 'Tim thay tai vi tri  trong mang A.', x, k )
+       Else
+              Writeln( 'Khong tim thay trong mang A', x );
+       Write('gia tri y:');  Readln(y);
+       ThayThe(A, N, x, y);
+       Writeln('Ket qua thay the ',x, y);
+       XuatMang1C(A, N);
+       ThayTheTatCa(A, N, x, y);
+       Writeln('Ket qua thay the tat ca la:',x, y);
+       XuatMang1C(A, N);
+       Readln;
+END.
+

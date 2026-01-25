@@ -1,0 +1,23 @@
+CONST
+  tfi = 'BAI3.INP';
+  tfo = 'BAI3.OUT';
+VAR
+  dd            :   array[0..2] of longint;
+  n,m,x,i,res   :   longint;
+BEGIN
+  assign(input, tfi); reset(input);
+  assign(output, tfo); rewrite(output);
+  read(n,m);
+  for i := 1 to n do
+    begin
+      read(x);
+      inc(dd[x mod 3]);
+    end;
+  for i := 1 to m do
+    begin
+        read(x);
+        res := dd[( 3 - x mod 3) mod 3];
+        writeln(res);
+    end;
+  close(input);close(output);
+END.

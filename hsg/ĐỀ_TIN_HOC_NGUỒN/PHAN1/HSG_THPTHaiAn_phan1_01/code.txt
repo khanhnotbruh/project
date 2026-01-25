@@ -1,0 +1,36 @@
+DAPAN
+Var 
+N, Dem:Longint;
+f1, f2:text;
+Procedure DuLieu;
+Begin
+  Assign(f1, ‘BAUOC.INP’);
+  Assign(f2, ‘BAUOC.OUT’);
+  Reset(f1); Rewrite(f2);
+  Readln(f1,N);
+  Dem:=0;
+ Close(f1);
+End;
+Procedure XuLy;
+Var i,j,Tong,M:Longint;
+Begin
+  For i:=2 to trunc(sqrt(N)) do
+    Begin
+	Tong:=2;
+	For j:=2 to i Do  
+begin
+	    if (i*i mod j =0) then
+	       if (i*i div j = j) then tong:=tong+1
+	       Else tong:=tong+2;
+	    If tong>3 then break;
+	End;
+	If tong=3 then dem:=dem+1;
+	End;
+Writeln(f2, dem);
+Close(f2);
+End;
+BEGIN
+   DuLieu;
+   XuLy;   
+END.
+

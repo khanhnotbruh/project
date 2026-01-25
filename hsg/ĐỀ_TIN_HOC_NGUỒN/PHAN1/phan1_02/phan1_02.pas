@@ -1,0 +1,18 @@
+CONST
+  tfi = 'BAI1.INP';
+  tfo = 'BAI1.OUT';
+VAR
+  i,res         :   longint;
+  ch            :   char;
+BEGIN
+  assign(input, tfi); reset(input);
+  assign(output, tfo); rewrite(output);
+      res := 0;
+  while not seekeof(input) do
+    begin
+         read(ch);
+         if upcase(ch) in ['A'..'Z'] then inc(res);
+    end;
+  write(res);
+  close(input);close(output);
+END.

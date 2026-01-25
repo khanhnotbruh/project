@@ -1,0 +1,42 @@
+program bai3;
+var a: array [1..1000]of integer;
+    i,j,k ,t,dem: integer; n:longint;
+    F1,F2 : TEXT;
+function so_ngto(x:integer):boolean;
+         var u: integer;
+         begin
+         if x > 1 then
+                 begin
+                  so_ngto:=false;
+                  u:=2;
+                  While (u<=sqrt(x)) and (( x mod u ) <> 0) do u:=u+1;
+                  if u> sqrt (x) then so_ngto:=true;
+                 end;
+         end;
+BEGIN
+     assign (f1, 'DE1_03.INP');
+     reset (f1);
+     assign (f2,'DE1_03.out');
+     rewrite (f2);
+     readln(f1,n);
+     for i:=1 to n do   read(f1,a[i]);
+     {==== dem va viet ra doan con la SNT===}
+     for i:=1 to n-1 do
+     begin
+     t:=a[i];
+     for j:= i+1 to n do
+         begin
+         t:=t+a[j];
+         if so_ngto(t) = true then
+         begin
+         dem:=dem+1;
+         for k:= i to j do write (f2,a[k]);
+         writeln(f2);
+         end;
+         end;
+     end;
+     if dem = 0 then writeln(f2,'khong co');
+     close (f1);
+     close (f2);
+
+END.

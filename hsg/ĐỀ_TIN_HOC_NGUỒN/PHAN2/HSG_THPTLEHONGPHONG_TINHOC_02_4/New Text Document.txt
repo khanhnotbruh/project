@@ -1,0 +1,33 @@
+Nguyễn Lệ Hằng – THPT Lê Hồng Phong
+CODE THAM KHẢO
+type
+  int = longint;
+var
+  n, i, j, t: int;
+  a: array[1..26] of int;
+  ans: int64; fi, fo: text;
+begin
+  assign(fi, ‘taochuoi.inp'); reset(fi);
+  assign(fo,’taochuoi.out'); rewrite(fo);
+  readln(fi,n);
+  for i := 1 to n do 
+read(fi,a[i]);
+  for i := 1 to n do
+    for j := i+1 to n do
+      if(a[i] < a[j]) then
+      begin
+        t := a[i]; a[i] := a[j]; a[j] := t;
+      end;
+  t := a[1]; ans := 0;
+  for i := 1 to n do
+  begin
+    if(a[i] < t) then 
+t := a[i];
+    inc(ans, t); dec(t);
+    if(t=0) then 
+break;
+  end;
+  writeln(ans);
+  close(fi); close(fo);
+end.
+------------------------------------------------------------------------------------------------------------
