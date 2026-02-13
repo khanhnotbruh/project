@@ -1,0 +1,37 @@
+# thaiphien_3_1
+
+## Document Information
+
+- **File**: cau3/thaiphien_3_1.docx
+- **Pages**: 1
+- **Words**: 222
+
+---
+
+CÂU HỎI
+
+### BÀI 3: TÌM ĐOẠN NGẮN NHẤT
+
+Nhân dịp trung thu, trên một đường phố Lê Lợi người ta treo  đèn lồng màu xanh và  màu đỏ. Đèn thứ i ở vị trí cách vị trí  bắt đầu con phố là , mỗi một vị trí chỉ treo một đèn. Để tìm được điểm múa lân đẹp  ban tổ chức muốn chọn một đoạn đường ngắn nhất mà dọc theo nó có ít nhất  đèn xanh và ít nhất  đèn đỏ để trang trí.
+
+Yêu cầu: Với  và vị trí của  đèn. Hãy tìm đoạn đường có độ dài ngắn nhất sao cho có ít nhất đèn xanh và ít nhất  đèn đỏ.
+
+Nhân dịp trung thu, trên một đường phố Lê Lợi người ta treo $n$ đèn lồng màu xanh và  màu đỏ. Đèn thứ i ở vị trí cách vị trí  bắt đầu con phố là $d_{i}\left(\right)$, mỗi một vị trí chỉ treo một đèn. Để tìm được điểm múa lân đẹp  ban tổ chức muốn chọn một đoạn đường ngắn nhất mà dọc theo nó có ít nhất $a$ đèn xanh và ít nhất $b$ đèn đỏ để trang trí.
+
+Yêu cầu: Với $a,b$ và vị trí của $n$ đèn. Hãy tìm đoạn đường có độ dài ngắn nhất sao cho có ít nhất $$đèn xanh và ít nhất $b$ đèn đỏ.
+
+- Dòng i trong các dòng tiếp theo mỗi dòng chứa hai số nguyên  và   
+- Dòng 1 chứa $n, a, b ( a+b \leq  n)$;
+- Dòng i trong các dòng tiếp theo mỗi dòng chứa hai số nguyên $d$ và $k$  $\left(d\leq 10^{9}\right),$
+
+$$là đèn xanh$, k$là đèn đỏ;
+
+| BAI 3 .INP | BAI3.OUT |
+| :--- | ---: |
+| 7 2 2 20 2 30 1 25 1 35 1 10 1 60 2 65 2 | 35 |
+
+*Ràng buộc:*
+
+- 60% số test tương ứng với 60% số điểm có  ;     
+- 40% số test tương ứng với 40% số điểm với trường hợp  còn lại.
+

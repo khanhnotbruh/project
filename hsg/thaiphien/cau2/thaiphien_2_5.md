@@ -1,0 +1,31 @@
+# thaiphien_2_5
+
+## Document Information
+
+- **File**: cau2/thaiphien_2_5.docx
+- **Pages**: 1
+- **Words**: 83
+
+---
+
+## CÂU HỎI
+
+## Bài 2   Xâu con 
+
+Cho trước hai xâu kí tự S1 và S2 (s1,s2<=1000) . Viết chương trình tính số lần lặp lại của xâu S1 trong xâu S2.
+
+***Dữ liệu vào*****:** Vào từ tệp văn bản BAI2.INP gồm:
+
+- Dòng đầu tiên chứa xâu S1.
+- Dòng thứ hai chứa xâu S2.
+
+***Dữ liệu ra*****:** Ghi ra tệp văn bản BAI2.OUT:
+
+- Chỉ một dòng duy nhất ghi số lần lặp lại của xâu S1 trong xâu S2.
+
+***Ví dụ:        ***
+
+| BAI2.INP | BAI2.OUT |
+| :--- | ---: |
+| aba bababababa | 5 |
+

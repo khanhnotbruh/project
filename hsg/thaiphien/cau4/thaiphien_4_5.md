@@ -1,0 +1,34 @@
+# thaiphien_4_5
+
+## Document Information
+
+- **File**: cau4/thaiphien_4_5.docx
+- **Pages**: 1
+- **Words**: 152
+
+---
+
+## CÂU HỎI
+
+## Bài 4: Hoán vị 
+
+Cho một mảng A gồm N số là một hoán vị từ 1 đến N. Một dãy con của dãy trên là một đoạn liên tục từ u đến v (u <= v).
+
+**Yêu cầu**: Tìm tất cả các dãy con sao cho dãy con đó cũng là một hoán vị của các số liên tiếp bắt đầu từ 1.
+
+***Dữ liệu vào*****:** Vào từ tệp văn bản BAI4.INP:
+
+- Dòng thứ nhất ghi số N (N<=30000). 
+- Dòng thứ hai ghi N số A[1] đến A[N].
+
+***Dữ liệu ra*****: **Ghi ra tệp** **văn bản BAI4.OUT:
+
+- Dòng thứ nhất ghi K là số dãy con của dãy A là hoán vị;
+- Tiếp theo là K dòng, mỗi dòng ghi 3 số u v w với ý nghĩa đoạn từ u đến v là hoán vị của các số từ 1 đến w.
+
+***Ví dụ:  ***
+
+| BAI4.INP | BAI4.OUT |
+| :--- | :--- |
+| 6 3 5 4 1 2 6 | 4 4 4 1 4 5 2 1 5 5 1 6 6 |
+

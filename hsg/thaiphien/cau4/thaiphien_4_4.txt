@@ -1,0 +1,37 @@
+thaiphien_4_4
+
+Document Information:
+- File: cau4/thaiphien_4_4.docx
+- Pages: 1
+- Words: 219
+
+==================================================
+
+# CÂU HỎI
+
+### Bài 4: Chọn dãy con có tổng lớn nhất
+
+Cho dãy n số nguyên dương a1, a2, …, an. Một dãy con của dãy nói trên là dãy được lập từ dãy đã cho bằng cách bỏ đi một số số hạng của dãy và giữ nguyên trật tự các số còn lại. Hãy tìm một dãy con thoả mãn tính chất:
+
+1. Không có ba số liên tiếp nào của dãy ban đầu có mặt trong dãy con
+
+2. Trong ba số liên tiếp của dãy ban đầu có ít nhất một số có mặt trong dãy con
+
+3. Tổng các số hạng của dãy con được chọn là lớn nhất có thể được.
+
+**Dữ liệu:** Vào từ file CHONSO.INP:
+
+1. Dòng đầu tiên chứa số nguyên dương N (N≤1000000)
+
+2. N dòng tiếp theo, dòng thứ i chứa số nguyên dương ai (ai≤30000)
+
+**Kết quả:** Gho ra file văn bản CHONSO.OUT:
+
+1. Dòng đầu tiên chứa hai số nguyên dương T và M trong đó M là số lượng các số hạng của dãy con được chọn, T là tổng các số của dãy chon được chọn.
+
+2. M dòng tiếp theo lần lượt mô tả các số hạng của dãy con được chọn, dòng thứ k ghi số jk là chỉ só của số hạng được chọn thứ k.
+
+*Ví dụ:*
+
+| 6 2 6 5 1 7 3 | 21 4 2 3 5 6 |
+

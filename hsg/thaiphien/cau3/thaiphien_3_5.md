@@ -1,0 +1,35 @@
+# thaiphien_3_5
+
+## Document Information
+
+- **File**: cau3/thaiphien_3_5.docx
+- **Pages**: 1
+- **Words**: 159
+
+---
+
+## CÂU HỎI
+
+### Bài 3:DÃY CON DÀI NHẤT
+
+Cho một dãy số nguyên gồm N phần tử a1 , a2, ..., aN và một số nguyên K. Giả thiết dãy cho luôn luôn tồn tại một dãy con có tổng các phần tử chia hết cho k.
+
+*Yờu cầu : *Hãy tìm  dãy con có nhiều phần tử nhất có tổng các phần tử chia hết cho k.
+
+***Dữ liệu vào****:* Ghi trong file text, tên file là BAI3.INP gồm 2 dòng:
+
+- Dũng đầu ghi  2 số nguyên N và k ( 0<N< 1000; 0< k <1000)
+- Dũng tiếp theo ghi N số nguyên  ai (0<ai  5000, i =1,..,N)
+
+***Dữ liệu ra**** : *Ghi  ra file text, tên file là BAI3.OUT, gồm:
+
+- Dòng đầu ghi độ dài dãy con tìm được.
+- Dòng tiếp theo ghi cỏc phần tử của dãy con. 
+- Dòng cuối cùng ghi tổng cỏc phần tử của dãy con đó.
+
+Ví dụ:
+
+| BAI3.INP | BAI3.OUT |
+| :--- | :--- |
+| 10   17 12  32  14  11  22  5  25  44  52  17 | 8 12  32  14  11  5  44  52  17 187 |
+

@@ -1,0 +1,25 @@
+thaiphien_1_3
+
+Document Information:
+- File: cau1/thaiphien_1_3.docx
+- Pages: 1
+- Words: 214
+
+==================================================
+
+# CÂU HỎI
+
+## BÀI 1:  Tính điểm
+
+Trong kỳ thi vấn đáp học sinh phải trả lời các câu hỏi của thầy giáo. Nếu trả lời đúng thầy giáo đánh dấu bằng kí tự ‘D’ (Đúng), nếu sai thì đánh dấu ‘S’ (Sai). Khi học sinh trả lời đúng, thầy giáo sẽ đưa ra câu hỏi tiếp theo khó hơn câu trước, còn khi trả sai thầy sẽ cho câu hỏi mới dễ hơn. Sau khi thi xong, kết quả của mỗi học sinh là một xâu các ký tự ‘D’ và ‘S’. Điểm số của học sinh sẽ được tính như sau: Với các câu trả lời sai học sinh không được điểm, với mỗi câu trả lời đúng học sinh nhận được điểm bằng điểm của câu trả lời đúng, đứng ngay trước nó cộng 0,5. Câu trả lời đúng đầu tiên sau câu trả lời sai có điểm bằng 1. Ví dụ, nếu kết quả là: “DDSSDSSDDD’, thì điểm số sẽ là: 1+1,5+0+0+1+0+0+1+1,5+2 = 8,0
+
+**Yêu cầu**: Cho xâu có độ dài không quá 1000, hãy tính điểm của học sinh.
+
+***Dữ liệu vào***: Cho tệp BAI1.INP chứa một xâu kết quả
+
+***Dữ liệu ra***: Đưa ra tệp BAI1.OUT điểm số của kết quả thi lấy 1 phần thập phân.
+
+**Ví dụ**:
+
+| DDSSDSSDDD | 8,0 |
+

@@ -1,0 +1,45 @@
+# thaiphien_4_3
+
+## Document Information
+
+- **File**: cau4/thaiphien_4_3.docx
+- **Pages**: 2
+- **Words**: 283
+
+---
+
+CÂU HỎI
+
+### Bài 4: QUAN HỆ HUYẾT THỐNG
+
+Trung tâm nghiêm cứu gen thu thập N mẫu gen của N cá thể trong cùng một loài. N gen này được mã hoá thành dãy N số nguyên dương **a1, a2, …, aN**. Bộ phận phân tích sau khi xem xét đã đưa ra được kết luận sau: 
+
+*Hai cá thể là có quan hệ huyết thống gần khi và chỉ khi  mã gen của chúng biểu diễn trong cơ số 2 giống nhau hoặc khác nhau đúng 1 bit*
+
+Ví dụ: Hai cá thể có mã gen 7 (biểu diễn trong cơ số 2 là 111) và 5 (biểu diễn trong cơ số 2 là 101) là có quan hệ huyết thống gần.
+
+Hãy đếm xem trong số mẫu gen của N cá thể thu thập được có bao nhiêu cặp cá thể có quan hệ huyết thống gần.
+
+*Dữ liệu:* Vào từ file văn bản BAI4.INP
+
+1. Dòng đầu tiên ghi số nguyên dương N (N≤105)
+
+2. N dòng tiếp theo, dòng thứ i ghi mã gen của cá thể thứ i là một số nguyên dương trong phạm vi từ 1 đến 1000)
+
+*Kết quả:* Ghi ra file văn bản BAI4.OUT một số nguyên duy nhất là số cặp có quan hệ huyết thống gần đã tìm được.
+
+*Ví dụ:*
+
+| BAI4 .INP | BAI4 .OUT |
+| :--- | ---: |
+| 5 1 2 3 4 5 | 4 |
+| 3 10 10 10 | 3 |
+
+Giải thích ví dụ thứ nhất:
+
+Các số 1, 2, 3, 4, 5 biểu diễn trong cơ số 2 lần lượt là 001, 010, 011, 100, 101. Có 4 cặp có quan hệ huyết thống gần là:
+
+1 và 3, 1 và 5, 2 và 3, 4 và 5
+
+Ghi chú:  Có ít nhất 50% số điểm ứng với các test có N≤1000
+

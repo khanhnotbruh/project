@@ -1,0 +1,34 @@
+thaiphien_4_1
+
+Document Information:
+- File: cau4/thaiphien_4_1.docx
+- Pages: 1
+- Words: 116
+
+==================================================
+
+# CÂU HỎI
+
+# BÀI 4: XÓA SỐ
+
+Cho số nguyên dương , hãy xóa đi  chữ số  trong  để các chữ số còn lại theo đúng thứ tự ban đầu tạo thành một số có giá trị nhỏ nhất (,   là số lượng chữ số trong ).
+
+### Dữ liệu :Vào từ file văn bản BAI4.INP  
+
+- Dòng đầu là số nguyên dương ;
+- Dòng 2 số nguyên dương  duy nhất.
+
+**Kết quả : G**hi ra file văn bản **BAI4.OUT**  số nguyên còn lại có giá trị nhỏ nhất sau khi xóa đi  chữ số trong .
+
+# Ví dụ
+
+| 2 2300123 | 123 |
+| 3 2651893 | 1893 |
+
+***Ràng buộc:***
+
+Cho số nguyên dương $x$, hãy xóa đi $k$ chữ số  trong $x$ để các chữ số còn lại theo đúng thứ tự ban đầu tạo thành một số có giá trị nhỏ nhất ($k<|x|$,  $|x|$ là số lượng chữ số trong $x$).
+
+- 30% điểm với  ;
+- Dòng đầu là số nguyên dương $k$;
+
