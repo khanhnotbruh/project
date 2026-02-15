@@ -1,0 +1,10 @@
+pragma singleton
+import Quickshell
+
+Singleton {
+  readonly property AppearanceConfig.Rounding rounding: Config.appearance.rounding
+  readonly property AppearanceConfig.Spacing spacing: Config.appearance.spacing
+  readonly property AppearanceConfig.Padding padding: Config.appearance.padding
+  readonly property AppearanceConfig.FontInfo font: Config.appearance.font
+  readonly property AppearanceConfig.Transparency transparency: Config.appearance.transparency
+}
