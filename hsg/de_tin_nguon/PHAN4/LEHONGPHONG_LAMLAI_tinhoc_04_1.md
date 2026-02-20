@@ -1,0 +1,42 @@
+## Nguyễn Thế Dũng -- THPT Lê Hồng Phong
+
+## CÂU HỎI
+
+Cho hai số nguyên dương M và N, M có p chữ số và N có q chữ số.
+
+***Yêu cầu:*** Tính tổng của hai số M và N.
+
+***Dữ liệu vào:*** Cho trong file văn bản TONG.INP có cấu trúc như sau:
+
+*- Dòng 1:* Ghi số nguyên dương p là số lượng chữ số của M (1 ≤ p ≤
+30000).
+
+*- Dòng 2:* Ghi p chữ số của M theo thứ tự từ trái sang phải, các chữ số
+được ghi cách nhau ít nhất một dấu cách.
+
+*- Dòng 3:* Ghi số nguyên dương q là số lượng chữ số của N (1 ≤ q ≤
+30000).
+
+*- Dòng 4:* Ghi q chữ số của N theo thứ tự từ trái sang phải, các chữ số
+được ghi cách nhau ít nhất một dấu cách.
+
+***Dữ liệu ra:*** Ghi ra file văn bản TONG.OUT theo cấu trúc như sau:
+
+*- Dòng 1:* Ghi số nguyên dương k là số lượng chữ số của tổng tìm được.
+
+*- Dòng 2:* Ghi k chữ số của tổng tìm được theo thứ tự từ trái sang
+phải, các chữ số được ghi cách nhau ít nhất một dấu cách.
+
+***Ví dụ:***
+
++--------------------------------+-------------------------------------+
+| TONG.INP                       | TONG.OUT                            |
++--------------------------------+-------------------------------------+
+| 6                              | 6                                   |
+|                                |                                     |
+| 2 2 3 2 3 9                    | 2 2 3 4 8 6                         |
+|                                |                                     |
+| 3                              |                                     |
+|                                |                                     |
+| 2 4 7                          |                                     |
++--------------------------------+-------------------------------------+
