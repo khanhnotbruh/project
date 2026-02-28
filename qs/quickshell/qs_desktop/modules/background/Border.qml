@@ -94,13 +94,5 @@ Shape{
       relativeX:-frame.width
       relativeY:0
     }
-
-    Behavior on fillColor{
-      ColorAnimation {
-        duration: 1000
-        easing.type: Easing.BezierSpline
-        easing.bezierCurve: 20
-      }
-    }
   }
 }

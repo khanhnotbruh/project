@@ -2,7 +2,7 @@
   "appearance": {
     "font": {
       "family": {
-        "clock": "Rubik",
+  "clock": "Rubik",
         "material": "Material Symbols Rounded",
         "mono": "CaskaydiaCove NF",
         "sans": "Rubik"
@@ -28,7 +28,7 @@
   },
   "border":{
     "enabled":true,
-    "color":"#928374",
+    "color":"#111213",
     "thickness":10,
     "rounding":20
   },
