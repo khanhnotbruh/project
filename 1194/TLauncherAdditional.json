@@ -1,0 +1,1160 @@
+{
+  "activateSkinCapeForUserVersion": false,
+  "skipHashsumValidation": false,
+  "tlauncherVersion": 0,
+  "modpack": {
+    "modpackMemory": false,
+    "memory": 0,
+    "id": -13346516469200,
+    "name": "1194",
+    "favorite": false,
+    "version": {
+      "mods": [
+        {
+          "stateGameElement": "active",
+          "id": 394468,
+          "name": "Sodium",
+          "author": "jellysquid_",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/sodium",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            }
+          ],
+          "picture": 809954,
+          "pictures": [],
+          "lanName": "sodium",
+          "version": {
+            "id": 4437119,
+            "name": "sodium-fabric-mc1.19.4-0.4.10+build.24",
+            "updateDate": 1678767360000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "b060680929d7a6d130fb980a9f9907461df05fa1",
+              "size": 711302,
+              "path": "mods/sodium-fabric-mc1.19.4-0.4.10+build.24.jar",
+              "url": "/mods/394468/4437119/sodium-fabric-mc1.19.4-0.4.10+build.24.jar"
+            },
+            "installed": 262049,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              },
+              {
+                "id": 4,
+                "name": "quilt"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 889,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1766350800000,
+          "update": 1766350800000,
+          "downloadALL": 32645204,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 306612,
+          "name": "Fabric API",
+          "author": "",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/fabric-api",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 778706,
+          "pictures": [],
+          "lanName": "fabric-api",
+          "version": {
+            "id": 4834896,
+            "name": "fabric-api-0.87.2+1.19.4",
+            "updateDate": 1698919855000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "586ac174c831da9fd35edce1e36eb14c7f878ce3",
+              "size": 2055860,
+              "path": "mods/fabric-api-0.87.2+1.19.4.jar",
+              "url": "/mods/306612/4834896/fabric-api-0.87.2+1.19.4.jar"
+            },
+            "installed": 164563,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 1786,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1768856400000,
+          "update": 1768856400000,
+          "downloadALL": 18431452,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 360438,
+          "name": "Lithium (FabricNeoForge)",
+          "author": "jellysquid_",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/lithium",
+          "favorite": false,
+          "categories": [],
+          "picture": 821270,
+          "pictures": [],
+          "lanName": "lithium",
+          "version": {
+            "id": 4439705,
+            "name": "lithium-fabric-mc1.19.4-0.11.1",
+            "updateDate": 1678918107000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "69aa137957af4f0f701f6a7663c6d8646f84a1cc",
+              "size": 639391,
+              "path": "mods/lithium-fabric-mc1.19.4-0.11.1.jar",
+              "url": "/mods/360438/4439705/lithium-fabric-mc1.19.4-0.11.1.jar"
+            },
+            "installed": 26632,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 115,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1760648400000,
+          "update": 1760648400000,
+          "downloadALL": 1110759,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 526491,
+          "name": "Cat Eyes - Night Vision Toggle Mod (Fabric)",
+          "author": "tangosixxer",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/cat-eyes-night-vision-toggle-mod",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 1,
+              "name": "magic",
+              "shortName": "magic",
+              "nesting": 0
+            },
+            {
+              "id": 3,
+              "name": "cosmetic",
+              "shortName": "cosmetic",
+              "nesting": 0
+            }
+          ],
+          "picture": 847063,
+          "pictures": [
+            558521,
+            558522,
+            558520,
+            558523
+          ],
+          "lanName": "cat-eyes-night-vision-toggle-mod",
+          "version": {
+            "id": 4791195,
+            "name": "CatEyes-v7_Fabric-1.19.4",
+            "updateDate": 1696894394000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "81948427419c47040e21788485f5deb531f4d9db",
+              "size": 19470,
+              "path": "mods/CatEyes-v7_Fabric-1.19.4.jar",
+              "url": "/mods/526491/4791195/CatEyes-v7_Fabric-1.19.4.jar"
+            },
+            "installed": 2057,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 3,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1759784400000,
+          "update": 1759784400000,
+          "downloadALL": 114603,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 511319,
+          "name": "Reese's Sodium Options",
+          "author": "flashyreese",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            }
+          ],
+          "picture": 821329,
+          "pictures": [],
+          "lanName": "reeses-sodium-options",
+          "version": {
+            "id": 4665635,
+            "name": "reeses_sodium_options-1.6.3+mc1.19.4-build.90",
+            "updateDate": 1690373719000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "4a44da582bd62761f2f7d5eb8a9753a132a72427",
+              "size": 69972,
+              "path": "mods/reeses_sodium_options-1.6.3+mc1.19.4-build.90.jar",
+              "url": "/mods/511319/4665635/reeses_sodium_options-1.6.3+mc1.19.4-build.90.jar"
+            },
+            "installed": 14011,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 2845,
+              "name": "Sodium Extra",
+              "gameEntityId": 447673,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 2846,
+              "name": "Iris Shaders",
+              "gameEntityId": 455508,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 1847,
+              "name": "Sodium",
+              "gameEntityId": 394468,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1759438800000,
+          "update": 1759438800000,
+          "downloadALL": 710812,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 248787,
+          "name": "AppleSkin",
+          "author": "squeek502",
+          "uuid": "dfb0b67e-cae4-11ec-b2ce-f02f74958c02",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 6,
+              "name": "map_information",
+              "shortName": "maps",
+              "nesting": 0
+            },
+            {
+              "id": 24,
+              "name": "mc_food",
+              "shortName": "food",
+              "nesting": 0
+            }
+          ],
+          "picture": 821134,
+          "pictures": [],
+          "lanName": "appleskin",
+          "version": {
+            "id": 4770823,
+            "name": "appleskin-fabric-mc1.19.4-2.5.1",
+            "updateDate": 1695778634000,
+            "type": "beta",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "702e8f1e14734e24128d7f854988a19c7ab76170",
+              "size": 1062919,
+              "path": "mods/appleskin-fabric-mc1.19.4-2.5.1.jar",
+              "url": "/mods/248787/4770823/appleskin-fabric-mc1.19.4-2.5.1.jar"
+            },
+            "installed": 19262,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 7231,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1759784400000,
+          "update": 1759784400000,
+          "downloadALL": 14747112,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 1037459,
+          "name": "Text Placeholder API",
+          "author": "Patbox",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/text-placeholder-api",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 845872,
+          "pictures": [],
+          "lanName": "text-placeholder-api",
+          "version": {
+            "id": 6131400,
+            "name": "placeholder-api-2.1.1+1.19.4",
+            "updateDate": 1738006014000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              },
+              {
+                "id": 43,
+                "name": "1.19.3"
+              }
+            ],
+            "metadata": {
+              "sha1": "e40f74be5f06d2ef272106edec73282db75f3bcd",
+              "size": 134670,
+              "path": "mods/placeholder-api-2.1.1+1.19.4.jar",
+              "url": "/mods/1037459/6131400/placeholder-api-2.1.1+1.19.4.jar"
+            },
+            "installed": 5500,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              },
+              {
+                "id": 4,
+                "name": "quilt"
+              }
+            ]
+          },
+          "popularity": 4,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 65,
+            "name": "1.21.10"
+          },
+          "updated": 1761339600000,
+          "update": 1761339600000,
+          "downloadALL": 479754,
+          "available": true,
+          "parser": true,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": 308702,
+          "name": "Mod Menu",
+          "author": "ProfessorProspector",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/modmenu",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            }
+          ],
+          "picture": 1301022,
+          "pictures": [],
+          "lanName": "modmenu",
+          "version": {
+            "id": 5162830,
+            "name": "modmenu-6.3.1",
+            "updateDate": 1709741577000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "ab2736e00597ba8b11e4f58573eb49c79e0417b4",
+              "size": 725106,
+              "path": "mods/modmenu-6.3.1.jar",
+              "url": "/mods/308702/5162830/modmenu-6.3.1.jar"
+            },
+            "installed": 9132,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              },
+              {
+                "id": 4,
+                "name": "quilt"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 135,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 2,
+              "name": "Fabric API",
+              "gameEntityId": 306612,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 7701,
+              "name": "Text Placeholder API",
+              "gameEntityId": 1037459,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1768078800000,
+          "update": 1768078800000,
+          "downloadALL": 1706876,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 357540,
+          "name": "Inventory HUD+",
+          "author": "dmitrylovin",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 55,
+              "name": "adventure_and_rpg",
+              "shortName": "roleplay",
+              "nesting": 0
+            },
+            {
+              "id": 83,
+              "name": "storage",
+              "shortName": "storage",
+              "nesting": 0
+            },
+            {
+              "id": 4,
+              "name": "armor_weapons_tools",
+              "shortName": "military",
+              "nesting": 0
+            },
+            {
+              "id": 6,
+              "name": "map_information",
+              "shortName": "maps",
+              "nesting": 0
+            }
+          ],
+          "picture": 821214,
+          "pictures": [],
+          "lanName": "inventory-hud-forge",
+          "version": {
+            "id": 5639951,
+            "name": "inventoryhud.fabric.1.19.4-3.4.26",
+            "updateDate": 1723974533000,
+            "type": "beta",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "fe2c3950953a3a45542942e4265606c57a2e3e6f",
+              "size": 237390,
+              "path": "mods/inventoryhud.fabric.1.19.4-3.4.26.jar",
+              "url": "/mods/357540/5639951/inventoryhud.fabric.1.19.4-3.4.26.jar"
+            },
+            "installed": 4827,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 538,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1760821200000,
+          "update": 1760821200000,
+          "downloadALL": 3071278,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 60089,
+          "name": "Mouse Tweaks",
+          "author": "YaLTeR97",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            },
+            {
+              "id": 83,
+              "name": "storage",
+              "shortName": "storage",
+              "nesting": 0
+            }
+          ],
+          "picture": 821132,
+          "pictures": [
+            16561
+          ],
+          "lanName": "mouse-tweaks",
+          "version": {
+            "id": 4440210,
+            "name": "fabric-mc1.19.4-2.24",
+            "updateDate": 1678943927000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "92c18017770fff5ff956d1c22c1e1f2a3fd1031a",
+              "size": 77355,
+              "path": "mods/MouseTweaks-fabric-mc1.19.4-2.24.jar",
+              "url": "/mods/60089/4440210/MouseTweaks-fabric-mc1.19.4-2.24.jar"
+            },
+            "installed": 22334,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 2253,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 2,
+              "name": "Fabric API",
+              "gameEntityId": 306612,
+              "dependencyType": "required",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 204,
+              "name": "Mod Menu",
+              "gameEntityId": 308702,
+              "dependencyType": "optional",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1759611600000,
+          "update": 1759611600000,
+          "downloadALL": 7139278,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 303119,
+          "name": "MaLiLib",
+          "author": "masa_",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/malilib",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 7,
+              "name": "library_api",
+              "shortName": "api",
+              "nesting": 0
+            }
+          ],
+          "picture": 844700,
+          "pictures": [],
+          "lanName": "malilib",
+          "version": {
+            "id": 4519977,
+            "name": "malilib-fabric-1.19.4-0.15.4",
+            "updateDate": 1683126165000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "60b946fa1bf466e80a5e4dc410d1de262c2fd694",
+              "size": 525560,
+              "path": "mods/malilib-fabric-1.19.4-0.15.4.jar",
+              "url": "/mods/303119/4519977/malilib-fabric-1.19.4-0.15.4.jar"
+            },
+            "installed": 17999,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 7,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 65,
+            "name": "1.21.10"
+          },
+          "updated": 1760907600000,
+          "update": 1760907600000,
+          "downloadALL": 514734,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 447673,
+          "name": "Sodium Extra",
+          "author": "flashyreese",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/sodium-extra",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            }
+          ],
+          "picture": 821310,
+          "pictures": [],
+          "lanName": "sodium-extra",
+          "version": {
+            "id": 4437313,
+            "name": "sodium-extra-0.4.18+mc1.19.4-build.100",
+            "updateDate": 1678772280000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "7e6d64f8a5ac5a64be79547e4a9a7d21e9f5597f",
+              "size": 326095,
+              "path": "mods/sodium-extra-0.4.18+mc1.19.4-build.100.jar",
+              "url": "/mods/447673/4437313/sodium-extra-0.4.18+mc1.19.4-build.100.jar"
+            },
+            "installed": 11998,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 5,
+          "downloadMonth": 155,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [
+            {
+              "gameType": "mod",
+              "id": 4835,
+              "name": "Reese's Sodium Options",
+              "gameEntityId": 511319,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 2846,
+              "name": "Iris Shaders",
+              "gameEntityId": 455508,
+              "dependencyType": "optional",
+              "available": false
+            },
+            {
+              "gameType": "mod",
+              "id": 1847,
+              "name": "Sodium",
+              "gameEntityId": 394468,
+              "dependencyType": "required",
+              "available": false
+            }
+          ],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1767906000000,
+          "update": 1767906000000,
+          "downloadALL": 1523052,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 866000,
+          "name": "NoHurtCam+",
+          "author": "Blake_JH Blake_JH",
+          "linkProject": "https://www.curseforge.com/minecraft/mc-mods/nohurtcam-plus",
+          "favorite": false,
+          "categories": [],
+          "picture": 802372,
+          "pictures": [],
+          "lanName": "nohurtcam-plus",
+          "version": {
+            "id": 4552425,
+            "name": "noHurtCam-2.1.0-1.19.4",
+            "updateDate": 1685029486000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              },
+              {
+                "id": 43,
+                "name": "1.19.3"
+              },
+              {
+                "id": 38,
+                "name": "1.19.2"
+              },
+              {
+                "id": 37,
+                "name": "1.19.1"
+              },
+              {
+                "id": 36,
+                "name": "1.19"
+              }
+            ],
+            "metadata": {
+              "sha1": "517eb3d084e3b358a1b8293b303b04808bb7308d",
+              "size": 26630,
+              "path": "mods/noHurtCam-2.1.0-1.19.4.jar",
+              "url": "/mods/866000/4552425/noHurtCam-2.1.0-1.19.4.jar"
+            },
+            "installed": 8299,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": [
+              {
+                "id": 2,
+                "name": "fabric"
+              }
+            ]
+          },
+          "popularity": 2,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 47,
+            "name": "1.20.2"
+          },
+          "updated": 1695243600000,
+          "update": 1695243600000,
+          "downloadALL": 26617,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        }
+      ],
+      "resourcePacks": [
+        {
+          "stateGameElement": "active",
+          "id": 580683,
+          "name": "Low On Fire",
+          "author": "haikis",
+          "linkProject": "https://www.curseforge.com/minecraft/texture-packs/low-on-fire",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            },
+            {
+              "id": 41,
+              "name": "sixteen_x",
+              "shortName": "16x",
+              "nesting": 0
+            },
+            {
+              "id": 53,
+              "name": "traditional",
+              "shortName": "traditional",
+              "nesting": 0
+            }
+          ],
+          "picture": 820789,
+          "pictures": [
+            260684,
+            1156610,
+            260681,
+            260682,
+            260683
+          ],
+          "lanName": "low-on-fire",
+          "version": {
+            "id": 4524893,
+            "name": "_1.19.4",
+            "updateDate": 1683384705000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "8f78ddcc6ad39fb4f0cb6b56f361182a0be085db",
+              "size": 49053,
+              "path": "resourcepacks/LowOnFire_1.19.4.zip",
+              "url": "/resourcepacks/580683/4524893/LowOnFire_1.19.4.zip"
+            },
+            "installed": 140560,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": []
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1765832400000,
+          "update": 1765832400000,
+          "downloadALL": 5279889,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": 828485,
+          "name": "Smaller Shield and Totem",
+          "author": "itsme64_",
+          "linkProject": "https://www.curseforge.com/minecraft/texture-packs/smaller-shield-and-totem",
+          "favorite": false,
+          "categories": [
+            {
+              "id": 22,
+              "name": "mc_miscellaneous",
+              "shortName": "mixed",
+              "nesting": 0
+            },
+            {
+              "id": 41,
+              "name": "sixteen_x",
+              "shortName": "16x",
+              "nesting": 0
+            }
+          ],
+          "picture": 821005,
+          "pictures": [
+            410882
+          ],
+          "lanName": "smaller-shield-and-totem",
+          "version": {
+            "id": 4474797,
+            "name": "Itsme64's smaller totem 1.5.1",
+            "updateDate": 1680580500000,
+            "type": "release",
+            "gameVersionsDTO": [
+              {
+                "id": 44,
+                "name": "1.19.4"
+              }
+            ],
+            "metadata": {
+              "sha1": "4a708d45a7978d6b3c7c798d67e451fe2b968e55",
+              "size": 139676,
+              "path": "resourcepacks/Itsme64's+smaller+totem+1.5.1.zip",
+              "url": "/resourcepacks/828485/4474797/Itsme64's+smaller+totem+1.5.1.zip"
+            },
+            "installed": 82376,
+            "available": false,
+            "remove": false,
+            "minecraftVersionTypes": []
+          },
+          "popularity": 5,
+          "downloadMonth": 0,
+          "userInstall": false,
+          "populateStatus": false,
+          "dependencies": [],
+          "lastGameVersion": {
+            "id": 66,
+            "name": "1.21.11"
+          },
+          "updated": 1766264400000,
+          "update": 1766264400000,
+          "downloadALL": 3464864,
+          "available": true,
+          "parser": true,
+          "totalComments": 0,
+          "adult": false
+        },
+        {
+          "stateGameElement": "active",
+          "id": -14208392258500,
+          "name": "§3Colt_16x",
+          "favorite": false,
+          "version": {
+            "id": -14208752815600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "7199e6d3c5d01ef4531d8f5d301ed91fc96cd52d",
+              "size": 31017066,
+              "path": "resourcepacks/§3Colt_16x.zip",
+              "url": "resourcepacks/§3Colt_16x.zip"
+            },
+            "available": false,
+            "remove": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        }
+      ],
+      "maps": [],
+      "shaderpacks": [],
+      "gameVersionDTO": {
+        "id": 44,
+        "name": "1.19.4"
+      },
+      "minecraftVersionName": {
+        "id": 10525,
+        "name": "0.18.4"
+      },
+      "id": -13346516473901,
+      "name": "1.0",
+      "available": false,
+      "remove": false,
+      "minecraftVersionTypes": [
+        {
+          "id": 2,
+          "name": "fabric"
+        }
+      ]
+    },
+    "userInstall": false,
+    "populateStatus": false,
+    "available": false,
+    "parser": false,
+    "totalComments": 0
+  },
+  "source": "local_version_repo",
+  "jar": "1.19.4",
+  "skinVersion": false
+}
