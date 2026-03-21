@@ -6,7 +6,7 @@
 int main(){
     FILE *fin=fopen("BAI1.INP","r");
     FILE *fout=fopen("BAI1.OUT","w");
-    //always remember to include space for \0
+  //always remember to include space for \0
     char c[1001];
     fgets(c,sizeof(c),fin);
     int open=0;

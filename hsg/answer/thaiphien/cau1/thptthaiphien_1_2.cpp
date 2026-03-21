@@ -11,8 +11,8 @@ int main(){
     for(int i=0;s[0][i]!='\0';i++)s1.set(s[0][i]-'a');
     for(int i=0;s[1][i]!='\0';i++)s2.set(s[1][i]-'a');
     if(s1==s2){
-      cout<<"YES\n";
-    }else cout<<"NO\n";
+      cout<<"YES ";
+    }else cout<<"NO ";
   }
   return 0;
 }
