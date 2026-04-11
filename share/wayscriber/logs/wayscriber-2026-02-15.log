@@ -1,0 +1,89 @@
+[INFO  wayscriber::app] Starting in daemon mode
+[INFO  wayscriber::daemon::core] Starting wayscriber daemon
+[INFO  wayscriber::daemon::core] Send SIGUSR1 to toggle overlay (e.g., pkill -SIGUSR1 wayscriber)
+[INFO  wayscriber::daemon::core] Configure Hyprland: bind = SUPER, D, exec, pkill -SIGUSR1 wayscriber
+[INFO  wayscriber::config::io] Loaded config from /home/khanh/.config/wayscriber/config.toml
+[INFO  wayscriber::daemon::tray::runtime] Creating tray service...
+[INFO  wayscriber::daemon::tray::runtime] Spawning system tray runtime thread...
+[INFO  wayscriber::daemon::tray::runtime] Waiting for system tray readiness signal...
+[INFO  zbus::connection::handshake::common] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+[INFO  zbus::connection::handshake::common] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+[INFO  tracing::span] read_command;
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::connection::handshake::common] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::connection] start_object_server; started_event=Some(Event { listeners_notified: 0, listeners_total: 1 })
+[INFO  tracing::span] obj_server_task;
+[INFO  zbus::connection] monitor_name_lost; name=org.kde.StatusNotifierItem-596-1
+[WARN  wayscriber::daemon::tray::ksni] StatusNotifierWatcher is offline: Error(Watcher(ServiceUnknown("The name is not activatable")))
+[INFO  wayscriber::daemon::tray::runtime] System tray spawned successfully
+[INFO  wayscriber::daemon::tray::runtime] System tray thread started
+[INFO  wayscriber::daemon::core] Daemon ready - waiting for toggle signal
+[INFO  zbus::connection::handshake::common] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+[INFO  zbus::connection::handshake::common] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+[INFO  tracing::span] read_command;
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::connection::handshake::common] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 7, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::proxy] {}; task_name="org.kde.StatusNotifierWatcher proxy caching"
+[WARN  wayscriber::daemon::tray::runtime] Failed to query tray host registration: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[INFO  wayscriber::daemon::core] Received SIGTERM - initiating graceful shutdown
+[INFO  wayscriber::app] Starting in daemon mode
+[INFO  wayscriber::daemon::core] Starting wayscriber daemon
+[INFO  wayscriber::daemon::core] Send SIGUSR1 to toggle overlay (e.g., pkill -SIGUSR1 wayscriber)
+[INFO  wayscriber::daemon::core] Configure Hyprland: bind = SUPER, D, exec, pkill -SIGUSR1 wayscriber
+[INFO  wayscriber::config::io] Loaded config from /home/khanh/.config/wayscriber/config.toml
+[INFO  wayscriber::daemon::tray::runtime] Creating tray service...
+[INFO  wayscriber::daemon::tray::runtime] Spawning system tray runtime thread...
+[INFO  wayscriber::daemon::tray::runtime] Waiting for system tray readiness signal...
+[INFO  zbus::connection::handshake::common] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+[INFO  zbus::connection::handshake::common] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+[INFO  tracing::span] read_command;
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::connection::handshake::common] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::connection] start_object_server; started_event=Some(Event { listeners_notified: 0, listeners_total: 1 })
+[INFO  tracing::span] obj_server_task;
+[INFO  zbus::connection] monitor_name_lost; name=org.kde.StatusNotifierItem-589-1
+[WARN  wayscriber::daemon::tray::ksni] StatusNotifierWatcher is offline: Error(Watcher(ServiceUnknown("The name is not activatable")))
+[INFO  wayscriber::daemon::tray::runtime] System tray spawned successfully
+[INFO  wayscriber::daemon::tray::runtime] System tray thread started
+[INFO  wayscriber::daemon::core] Daemon ready - waiting for toggle signal
+[INFO  zbus::connection::handshake::common] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+[INFO  zbus::connection::handshake::common] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+[INFO  tracing::span] read_command;
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::connection::handshake::common] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 7, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::proxy] {}; task_name="org.kde.StatusNotifierWatcher proxy caching"
+[WARN  wayscriber::daemon::tray::runtime] Failed to query tray host registration: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[INFO  wayscriber::app] Starting in daemon mode
+[INFO  wayscriber::daemon::core] Starting wayscriber daemon
+[INFO  wayscriber::daemon::core] Send SIGUSR1 to toggle overlay (e.g., pkill -SIGUSR1 wayscriber)
+[INFO  wayscriber::daemon::core] Configure Hyprland: bind = SUPER, D, exec, pkill -SIGUSR1 wayscriber
+[INFO  wayscriber::config::io] Loaded config from /home/khanh/.config/wayscriber/config.toml
+[INFO  wayscriber::daemon::tray::runtime] Creating tray service...
+[INFO  wayscriber::daemon::tray::runtime] Spawning system tray runtime thread...
+[INFO  wayscriber::daemon::tray::runtime] Waiting for system tray readiness signal...
+[INFO  zbus::connection::handshake::common] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+[INFO  zbus::connection::handshake::common] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+[INFO  tracing::span] read_command;
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::connection::handshake::common] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::connection] start_object_server; started_event=Some(Event { listeners_notified: 0, listeners_total: 1 })
+[INFO  tracing::span] obj_server_task;
+[INFO  zbus::connection] monitor_name_lost; name=org.kde.StatusNotifierItem-587-1
+[WARN  wayscriber::daemon::tray::ksni] StatusNotifierWatcher is offline: Error(Watcher(ServiceUnknown("The name is not activatable")))
+[INFO  wayscriber::daemon::tray::runtime] System tray spawned successfully
+[INFO  wayscriber::daemon::tray::runtime] System tray thread started
+[INFO  wayscriber::daemon::core] Daemon ready - waiting for toggle signal
+[INFO  zbus::connection::handshake::common] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+[INFO  zbus::connection::handshake::common] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+[INFO  tracing::span] read_command;
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::connection::handshake::common] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 7, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+[INFO  zbus::connection::handshake::common] read_commands; n_commands=1
+[INFO  zbus::proxy] {}; task_name="org.kde.StatusNotifierWatcher proxy caching"
+[WARN  wayscriber::daemon::tray::runtime] Failed to query tray host registration: org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+[INFO  wayscriber::daemon::core] Received SIGTERM - initiating graceful shutdown
