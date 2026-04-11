@@ -6,7 +6,6 @@ int main(){
   while(fscanf(fin,"%s",s)==1){
     fprintf(fout,"%s\n",s);
   }
-
   fclose(fin);fclose(fout);
   return 0;
 }
