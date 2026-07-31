@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/khanh/project/ncurses/musicli/build",
+  "command": "/usr/bin/cc  -I/home/khanh/project/ncurses/musicli/include -isystem /usr/include/luajit-2.1 -std=gnu11 -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -o CMakeFiles/musicli.dir/src/config.c.o -c /home/khanh/project/ncurses/musicli/src/config.c",
+  "file": "/home/khanh/project/ncurses/musicli/src/config.c",
+  "output": "CMakeFiles/musicli.dir/src/config.c.o"
+},
+{
+  "directory": "/home/khanh/project/ncurses/musicli/build",
+  "command": "/usr/bin/cc  -I/home/khanh/project/ncurses/musicli/include -isystem /usr/include/luajit-2.1 -std=gnu11 -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -o CMakeFiles/musicli.dir/src/main.c.o -c /home/khanh/project/ncurses/musicli/src/main.c",
+  "file": "/home/khanh/project/ncurses/musicli/src/main.c",
+  "output": "CMakeFiles/musicli.dir/src/main.c.o"
+}
+]

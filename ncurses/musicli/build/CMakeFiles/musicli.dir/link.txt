@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/musicli.dir/link.d CMakeFiles/musicli.dir/src/config.c.o CMakeFiles/musicli.dir/src/main.c.o -o musicli  /usr/lib/libluajit-5.1.so /usr/lib/libncursesw.so

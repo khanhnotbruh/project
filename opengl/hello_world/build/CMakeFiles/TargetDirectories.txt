@@ -1,0 +1,3 @@
+/home/khanh/project/opengl/hello_world/build/CMakeFiles/main.dir
+/home/khanh/project/opengl/hello_world/build/CMakeFiles/edit_cache.dir
+/home/khanh/project/opengl/hello_world/build/CMakeFiles/rebuild_cache.dir
